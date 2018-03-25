@@ -1,0 +1,247 @@
+
+
+html, body{
+width: 100%;
+}
+
+
+body{
+overflow-x: hidden;
+}
+
+
+/*
+    Here starts the styling of the jumbotron section
+*/
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    color: #ffffff;
+    height: 650px;
+    width: auto;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    background-attachment: fixed;
+  
+  }
+
+  jumbotron a{
+    text-decoration: none;    
+  }
+  
+  .btn-projects {
+    border-radius: 10px;
+    color: white;
+    border: white 1px solid;
+    text-decoration: none;
+  }
+
+  .btn-projects:hover{
+    color: #343a40;
+    background-color: white;
+  }
+  
+  #scrollUp {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #68a2ff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #scrollUp:hover {
+    background-color: #4253f4; /* Add a dark-grey background on hover */
+  }
+  
+  .jumbotron h1 {
+    font-size: 60px;  
+    color: #ffffff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #FFFFFF;
+  } 
+
+
+
+#about-section{
+  background: white;
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  color: #494C4E;
+}
+
+@media (max-width: 575px) { 
+  #about-section{
+    padding: 1.5rem;
+  }  
+ }
+
+ 
+
+ @media (max-width: 575px) { 
+  #projects-section{
+    padding: 1.5rem;
+  }  
+ }
+
+#projects-section{
+  background: #d9d9d9;
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 2rem;
+}
+
+#projects-section img{
+  display: block;
+  height: 100%;
+  padding: auto;
+  margin: auto;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 575px) { 
+  #projects-section{
+    padding: 1.5rem;
+  }  
+ }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4c507c;
+}
+
+#petus-img:hover .overlay {
+  opacity: 1;
+}
+
+#gallery-img:hover .overlay {
+  opacity: 1;
+}
+
+#grabcafe-img:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#experience-section1{
+  background: white;
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 575px) { 
+  #experience-section1{
+    padding-top: 2rem;
+  }  
+ }
+
+#experience-section2{
+  background: white;
+  text-align: center;
+  padding: 5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 575px) { 
+  #experience-section2{
+    padding-top: 2rem;
+  }  
+ }
+
+
+#contact-section {
+	background-image: url("https://images.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#envelope-icon{
+  margin: 2rem auto;
+  display: block;
+}
+/*Add some shadows to create a card effect*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+  font-weight: bold;
+  color: #494C4E;
+  padding-bottom: 10px;
+  outline-color: white;
+  /*background-color: black;*/
+  background-color: white;
+  float: none;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+
+.card img{
+  margin: 2rem 3rem 1rem 3rem;
+  border-radius: 50%; 
+}
+
+.card-body {
+	background: #68a2ff;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+
+#main-footer {
+  font-size: 12px;
+  padding: 50px 0;
+	display: block;
+	background-color: #343a40;
+	/*margin-top: -20px;*/
+	color: white;
+	font-family: Arial,sans-serif;
+	text-align: center;
+}
+
+
+#main-footer ul {
+  list-style: none;
+}
+
+#main-footer a:hover{
+    color: #68a2ff;
+}
+
+@media (max-width: 575px) { 
+  #main-footer .row{
+    padding-top: 1rem;
+  }  
+ }
+
+
