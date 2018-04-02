@@ -142,6 +142,19 @@ overflow-x: hidden;
   opacity: 1;
 }
 
+#projects-section .projects-link{
+  text-decoration: none;
+  color: #494C4E;
+  /*background-color: white;*/
+  position: relative;  
+  margin: auto !important;
+  width: 100vw;
+}
+
+.more-row{ 
+ padding: 1rem;
+}
+
 .text {
   color: white;
   font-size: 20px;
