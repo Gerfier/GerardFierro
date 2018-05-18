@@ -1,8 +1,17 @@
-# GerardPersonalSite
+# GerardFierro 
 Updated Personal Site 
 
-The link is for testing purposes on my phone but also so others can see how it is looking..
-https://cdn.rawgit.com/Gerfier/GerardPersonalSite/c986f75d/index.html
+Hosted on Github Pages
+https://gerfier.github.io/GerardFierro/
 
-The site will be later hosted by github pages once I finish the design.
+Portfolio and projects will be updated when needed
+
+Things to update:
+
+-In portfolio there is an option to send a message to my email. This functionality is still not fully integrated.
+I might use "formspree.io"
+
+-Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
+
+-PetUs still does not validate login form to relocate user to another made up page.
 
