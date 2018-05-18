@@ -55,10 +55,10 @@
 
     <!--Adding jumbotron to cover whole screen-->
     <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center">
+            <div class="container text-center welcome-text">
               <h1>Hola! My name is Gerard</h1>
               <h3>Front End Developer</h3>
-              <p><a class="btn btn-lg btn-projects" href="#projects-section" role="button" data-placement="bottom" data-toggle="tooltip" title="Constantly updated!">Projects</a></p>
+              <p><a class="btn btn-lg btn-resume" href="https://drive.google.com/file/d/1CLsLbs9_Mp4zMmfGT8AokmXy7o-aTnoW/view?usp=sharing" role="button" data-placement="bottom" data-toggle="tooltip" title="Updated if new projects!">Resume</a></p>
             </div>
     </div>
 
@@ -128,7 +128,7 @@
             <i class="jquery-icon"><img src="logo\jQuery-Logo.svg" alt="jquery-logo" style="max-width: 7rem; margin-left: 2rem; ; margin-bottom: 1.8rem"></i>
 
         </div>
-        <div id="experience-section2" class="col-lg-6">
+        <div id="experience-section2" class="col-lg-5">
           <h2>Some experience</h2>
           <i class="fab fa-python fa-3x" style="color: gray; margin-right: 2rem"></i>
           <i class="fab fa-react fa-3x" style="color: gray"></i>
@@ -209,16 +209,16 @@
                 <div class="col-md-6">
                     &copy; Copyright © 2017 Gerard Fierro
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
 
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-4">
                           <a href="https://www.facebook.com/gerrard.fierro"><i class="fab fa-facebook-square fa-2x" style="color: white"></i></a>
                           <a href="https://www.instagram.com/gerard_fierro/"><i class="fab fa-instagram fa-2x" style="color: white; margin-left:1rem"></i></a>
                           <a href="https://twitter.com/Gerardo_Fierro"><i class="fab fa-twitter-square fa-2x" style="color: white; margin-left:1rem"></i></a>
 
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
 
                 </div>
             </div>
@@ -239,7 +239,7 @@
         window.sr = new ScrollReveal({ mobile: false })
           window.sr = ScrollReveal();
           //Jumbotron and Footer Animation
-          sr.reveal('.container',{
+          sr.reveal('.welcome-text',{
            duration: 3000,
            origin:'left',
            distance: '300px'
@@ -276,7 +276,7 @@
           sr.reveal('.card',{
            duration: 3000,
            origin:'bottom',
-           distance: '300px'
+           distance: '100px'
           });
           //window.sr = new ScrollReveal({ mobile: false })
         </script>
