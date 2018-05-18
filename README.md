@@ -1,8 +1,8 @@
-# GerardPersonalSite
+# GerardFierro 
 Updated Personal Site 
 
-The link is for testing purposes on my phone but also so others can see how it is looking..
-https://cdn.rawgit.com/Gerfier/GerardPersonalSite/705e55ff/index.html
+Hosted on Github Pages
+https://gerfier.github.io/GerardFierro/
 
-The site will be later hosted by github pages once I finish the design.
+Portfolio and projects will be updated when needed
 
