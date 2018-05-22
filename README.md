@@ -6,10 +6,12 @@ https://gerfier.github.io/GerardFierro/
 
 Portfolio and projects will be updated when needed
 
-Things to update:
+Recent Updates:
 
--In portfolio there is an option to send a message to my email. This functionality is still not fully integrated.
-I might use "formspree.io"
+-"Formspree.io" used to send message to email
+
+
+Things to update:
 
 -Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
 
