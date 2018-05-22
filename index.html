@@ -69,7 +69,8 @@
           <div class="col-lg-8 offset-lg-2 col-sm-12">
             <i class="fas fa-user fa-4x" style="color: gray"></i>
             <br></br>
-            <p class="about">Graduated with a B.S. in Computer Science from Texas Tech University. Love working with websites and web applications.</p>
+            <p class="about">Graduated with a B.S. in Computer Science from Texas Tech University. Love working with websites and web applications, so currently
+              playing with Back-End to be come a Full-Stack Developer.</p>
             <p class="about">Hobbies: Soccer, reading, traveling, gaming and drinking coffee</p>
                     <h4>Motto: "Live everyday like it's Taco day"</h4>
           </div>
@@ -174,7 +175,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="contactModalTitle">
-                  Contact Me
+                  Send me a message!
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -193,7 +194,7 @@
                       <textarea name="message" class="form-control"></textarea>
                   </div>
                   <div class="modal-footer">
-                    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+                    <button class="btn btn-primary btn-block" type="submit">Send</button>
                   </div>
                 </form>
               </div>              
@@ -239,16 +240,10 @@
         <script>
         window.sr = new ScrollReveal({ mobile: false })
           window.sr = ScrollReveal();
-          //Jumbotron and Footer Animation
+          //Jumbotron Animation
           sr.reveal('.welcome-text',{
            duration: 3000,
            origin:'left',
-           distance: '300px'
-          });
-          //About Section Animation
-          sr.reveal('#about-section',{
-           duration: 4000,
-           origin:'right',
            distance: '300px'
           });
           //Projects Section Animation
@@ -267,17 +262,11 @@
            origin:'top',
            distance: '300px'
           });
-          //Experience Section Animation
-          sr.reveal('#experience-section',{
-           duration: 4000,
-           origin:'right',
-           distance: '300px'
-          });
           //Contact Section Card Animation
           sr.reveal('.card',{
            duration: 3000,
            origin:'bottom',
-           distance: '100px'
+           distance: '150px'
           });          
         </script>
 
