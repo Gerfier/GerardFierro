@@ -66,12 +66,11 @@
     <section id="about-section">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-8 offset-lg-2 col-sm-12 rounded"   data-aos="flip-left">
+          <div class="col-lg-8 offset-lg-2 col-sm-12">
             <i class="fas fa-user fa-4x" style="color: gray"></i>
             <br></br>
-            <p class="about">Ok so what if I tell you a little about me, I was born in Cd. Juarez, Chihuahua, Mexico (I know is a pretty serious place to live) and been living in the US since 2011.
-                I chose to get a B.S. in Computer Science from Texas Tech University first because I have a passion to work with programming and because I really love this university. Primarily, I enjoy working with
-                Web Development (mainly styling and writing their front-end code) and looking to become good with back-end so one day I can be full-stock. When I have some time outside work or coding I really enjoy traveling, reading, playing soccer, and gaming.</p>
+            <p class="about">Graduated with a B.S. in Computer Science from Texas Tech University. Love working with websites and web applications.</p>
+            <p class="about">Hobbies: Soccer, reading, traveling, gaming and drinking coffee</p>
                     <h4>Motto: "Live everyday like it's Taco day"</h4>
           </div>
         </div>
@@ -179,24 +178,20 @@
                 </button>
               </div>
               <div class="modal-body">
-                <form>
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control">
-                  </div>
+                <form method="POST" action="https://formspree.io/luis.g.fierro@ttu.edu">                
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control">
+                    <input type="email" name="email" class="form-control">
                   </div>
                   <div class="form-group">
                       <label for="message">Message</label>
-                      <textarea class="form-control"></textarea>
+                      <textarea name="message" class="form-control"></textarea>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary btn-block" type="submit">Submit</button>
                   </div>
                 </form>
-              </div>
-              <div class="modal-footer">
-                <button class="btn btn-primary btn-block">Submit</button>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
