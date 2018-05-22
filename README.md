@@ -10,10 +10,14 @@ Recent Updates:
 
 -"Formspree.io" used to send message to email
 
+-PetUs now has a simple validation file using  js
+
 
 Things to update:
+-Working in a better 'About' section for portfolio
 
 -Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
 
--PetUs still does not validate login form to relocate user to another made up page.
+-Redirect user to another page when logged in, in PetUs
+
 
