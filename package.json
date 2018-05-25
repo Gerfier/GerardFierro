@@ -1,0 +1,25 @@
+{
+  "name": "gerardfierro",
+  "version": "1.0.0",
+  "description": "Updated Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerfier/GerardFierro.git"
+  },
+  "author": "Gerard Fierro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gerfier/GerardFierro/issues"
+  },
+  "homepage": "https://github.com/Gerfier/GerardFierro#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1"
+  }
+}

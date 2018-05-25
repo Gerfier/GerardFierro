@@ -11,11 +11,12 @@ Recent Updates:
 
 -PetUs now has a simple validation file using  js
 
+-Started using Grunt.js to optimize and minimize files
+
 
 Things to update:
 
 -Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
 
--Redirect user to another page when logged in, in PetUs
 
 

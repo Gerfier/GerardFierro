@@ -10,7 +10,7 @@
     <!--CDN to bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Link to CSS file-->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="dist/style.min.css">
 
     <!--CDN to social sites icons-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -84,7 +84,7 @@
       <div class="container-fuid">
         <div class="row">
           <div id="petus-img" class="col-lg-4 col-md-4 col-sm-12 projects-img">
-           <img src="img\petus.jpg" alt="petus-img" class="img-fluid">            
+           <img src="dist/images/petus.jpg" alt="petus-img" class="img-fluid">            
             <a href="https://rawgit.com/Gerfier/PetUs-Bootstrap/master/index.html">
               <div class="overlay">
                 <div class="text">The 'Pet Us' project was created for a pet adoption startup, and still in development </div>
@@ -92,7 +92,7 @@
             </a>
           </div>
           <div id="simpleApps-img" class="col-lg-4 col-md-4 col-sm-12 projects-img">
-            <img src="img\simpleApps.png" alt="simpleApps-img" class="img-fluid">
+            <img src="dist/images/simpleApps.jpg" alt="simpleApps-img" class="img-fluid">
             <a href="https://cdn.rawgit.com/Gerfier/simple-apps/7e1ac608/index.html">
               <div class="overlay">
                 <div class="text">The 'simpleApps' project was created to show some ways to use javascript to provide simple and nice functionalities</div>
@@ -100,8 +100,8 @@
             </a>
           </div>
           <div id="grabcafe-img" class="col-lg-4 col-md-4 col-sm-12 projects-img">
-            <img src="img\grabcafe.jpg" alt="grabcafe-img" class="img-fluid">
-            <a href="https://cdn.rawgit.com/Gerfier/GrabCafe/3c976cf9/index.html">
+            <img src="dist/images/grabcafe.jpg" alt="grabcafe-img" class="img-fluid">
+            <a href="https://cdn.rawgit.com/Gerfier/GrabCafe/1dfac7ca/index.html">
               <div class="overlay">
                 <div class="text">The 'GrabCafe' project was inspired as a page for a coffee shop startup, design is still being improved</div>
               </div>
@@ -153,7 +153,7 @@
                     <h6 class="card-subtitle">Front End Developer</h6>
                 </div>
                 <!-- Image -->
-                <img src="img\myPhoto.jpg" alt="PersonalPhoto" style="float:center;max-width: 200px" >
+                <img src="dist/images/myPhoto.jpg" alt="PersonalPhoto" style="float:center;max-width: 200px" >
                 <!-- Text Content -->
                 <div class="card-bottom">
                     <p class="card-text">Texas Tech University</p>
@@ -235,7 +235,7 @@
         <!--Link to scrollReveal animation-->
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <!--Link to jQuery file-->
-        <script src="scrollTop.js"></script>
+        <script src="js/scrollTop.js"></script>
 
         <script>
         window.sr = new ScrollReveal({ mobile: false })
@@ -249,24 +249,24 @@
           //Projects Section Animation
           sr.reveal('#petus-img',{
            duration: 3000,
-           origin:'top',
-           distance: '300px'
+           origin:'bottom',
+           distance: '100px'
           });
           sr.reveal('#simpleApps-img',{
            duration: 3000,
-           origin:'top',
-           distance: '300px'
+           origin:'bottom',
+           distance: '100px'
           });
           sr.reveal('#grabcafe-img',{
            duration: 3000,
-           origin:'top',
-           distance: '300px'
+           origin:'bottom',
+           distance: '100px'
           });
           //Contact Section Card Animation
           sr.reveal('.card',{
            duration: 3000,
            origin:'bottom',
-           distance: '150px'
+           distance: '100px'
           });          
         </script>
 
