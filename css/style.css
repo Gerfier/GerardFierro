@@ -12,8 +12,12 @@ overflow-x: hidden !important;
     Here starts the styling of the jumbotron section
 */
 .jumbotron {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-image: url('https://images.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg?w=1260&h=750&auto=compress&cs=tinysrgb');
     background-size: cover;
     color: #ffffff;
@@ -87,19 +91,6 @@ overflow-x: hidden !important;
   color: #494C4E;
 }
 
-@media (max-width: 575px) { 
-  #about-section{
-    padding: 1.5rem;
-  }  
- }
-
- 
-
- @media (max-width: 575px) { 
-  #projects-section{
-    padding: 1.5rem !important;
-  }  
- }
 
 #projects-section{
   	background-image: url("https://images.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
@@ -117,13 +108,8 @@ overflow-x: hidden !important;
   margin: auto;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
- @media (max-width: 575px) { 
-  #projects-section img{
-    padding-top: 1.5rem !important;
-  }  
- }
 
 .overlay {
   position: absolute;
@@ -134,6 +120,8 @@ overflow-x: hidden !important;
   height: 100%;
   width: 100%;
   opacity: 0;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
   transition: .5s ease;
   background-color: #4c507c;
 }
@@ -171,15 +159,9 @@ overflow-x: hidden !important;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
- @media (max-width: 1200px) { 
-  .text{
-    font-size: 15px;
-  }  
- }
 
 
 #experience-section1{
@@ -189,24 +171,12 @@ overflow-x: hidden !important;
   margin-bottom: 2rem;
 }
 
-@media (max-width: 575px) { 
-  #experience-section1{
-    padding-top: 2rem;
-  }  
- }
-
 #experience-section2{
   background: white;
   text-align: center;
   padding: 5rem 0 5rem 1rem;
   margin-bottom: 2rem;
 }
-
-@media (max-width: 575px) { 
-  #experience-section2{
-    padding-top: 2rem;
-  }  
- }
 
 
 #contact-section {
@@ -221,6 +191,7 @@ overflow-x: hidden !important;
 }
 /*Add some shadows to create a card effect*/
 .card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
   font-weight: bold;
   color: #494C4E;
@@ -273,10 +244,32 @@ input[type='email'], textarea{
     color: #68a2ff !important;
 }
 
+
+/*****MEDIA QUERIES***/
 @media (max-width: 575px) { 
-  #main-footer .row{
+  #about-section{
+    padding: 1.5rem;
+  }  
+   #projects-section{
+    padding: 1.5rem !important;
+  }  
+   #projects-section img{
+    padding-top: 1.5rem !important;
+  }  
+   #experience-section1{
+    padding-top: 2rem;
+  } 
+    #experience-section2{
+    padding-top: 2rem;
+  }  
+   #main-footer .row{
     padding-top: 1rem;
   }  
  }
 
 
+ @media (max-width: 1200px) { 
+  .text{
+    font-size: 15px;
+  }  
+ }
