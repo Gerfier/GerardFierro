@@ -16,7 +16,8 @@ Portfolio and projects will be updated when needed
 
 ###### `Things to update:`
 
--Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
+- [ ]Some of the projects do not have all pages created, the case for PetUs and GrabCafe.
+- [ ] RawGit is not longer working so I need to find another CDN provider for the other projects 
 
 
 
